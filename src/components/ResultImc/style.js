@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     resultImc:{
         marginTop:40,
+        marginBottom:10,
         borderRadius:50,
         alignItems:"center",
         width:"100%",
@@ -25,8 +26,8 @@ const styles = StyleSheet.create({
     shared:{
         backgroundColor:"#1877F2",
         borderRadius:50,
-        paddingBottom:5,
-        paddingTop:5
+        paddingBottom:10,
+        paddingTop:10
     },
     sharedText:{
         color:"#ffffff",

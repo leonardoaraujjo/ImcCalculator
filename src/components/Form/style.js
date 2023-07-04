@@ -26,9 +26,10 @@ const styles = StyleSheet.create({
         width:"90%",
         borderRadius:50,
         backgroundColor:"#f6f6f6",
-        height:40,
-        margin:12,
-        paddingLeft:10
+        height:5,
+        margin:10,
+        paddingLeft:10,
+        marginBottom:0
     },
     buttonCalculator:{
         borderRadius:50,
@@ -39,7 +40,8 @@ const styles = StyleSheet.create({
         paddingTop:14,
         paddingBottom:14,
         marginLeft:12,
-        marginTop:30
+        marginTop:30,
+        marginBottom:0
     },
     textButtonCalculator:{
         fontSize:20,
@@ -54,6 +56,18 @@ const styles = StyleSheet.create({
     exhibitionResultImc:{
         width:"100%",
         height:"50%"
+    },
+    resultImcItem:{
+        fontSize:30,
+        color:"red",
+        height:50,
+        width:"100%",
+        paddingRight:20,
+        marginTop:0
+    },
+    textResultItemList:{
+        color:"red",
+        fontSize:18
     }
 })
 
